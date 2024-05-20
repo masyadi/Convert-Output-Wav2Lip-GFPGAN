@@ -9,7 +9,7 @@ Untuk convert image frame to video<br/>
 
 ### Wav2Lip
 Untuk generate video AI<br/>
-Pastikan Anda berada di directory `/Wav2Lip-GFPGAN/Wav2Lip-master` kemduan eksekusi perintah dibawah ini
+Pastikan Anda berada di directory `/Wav2Lip-GFPGAN/Wav2Lip-master` kemduan eksekusi perintah dibawah ini<br/>
 `python inference.py --checkpoint_path <ckpt> --face <video.mp4> --audio <an-audio-source>`
 
 Note:
@@ -22,7 +22,7 @@ Lebih jelasnya bisa ke halaman ini [Link](https://github.com/Rudrabha/Wav2Lip/tr
 
 ### GFPGAN
 Untuk menghasilkan restorasi gambar yang tinggi<br/>
-Pastikan Anda berada di directory `/Wav2Lip-GFPGAN/GFPGAN-master` kemudian eksekusi perintah dibawah ini
+Pastikan Anda berada di directory `/Wav2Lip-GFPGAN/GFPGAN-master` kemudian eksekusi perintah dibawah ini<br/>
 `python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2`
 
 Note:

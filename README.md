@@ -1,15 +1,14 @@
-Convert Output Wav2Lip-GFPGAN
+# Convert Output Wav2Lip-GFPGAN
 
 
 Untuk menghasilkan restorasi gambar yang tinggi
-python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2
+`python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2`
 
 Untuk convert video to image frame
-python video2image.py
+`python video2image.py`
 
 Untuk convert image frame to video
-python image2video.py
-Combine Lip Sync AI and Face Restoration AI to get ultra high quality videos.
+`python image2video.py`
 
 
 Project reference:
